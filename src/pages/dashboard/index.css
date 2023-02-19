@@ -1,5 +1,9 @@
 table {
     border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
 }
 
 tr { 
@@ -13,4 +17,16 @@ tr:first-child {
 
 tr:last-child {
     border-bottom: none;
+}
+
+th {
+    background: #eee;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
 }
